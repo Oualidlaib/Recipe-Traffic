@@ -1,6 +1,6 @@
 # Recipe Traffic Prediction Report 
 
-A data science project to predict whether a recipe would bring high traffic to the homepage, using logistic regression and various transformations.
+A data science project to predict whether a recipe would bring high traffic to the homepage, using predictve model.
 ## Data Validation and Cleaning
 ## The dataset
 This data set has 947 rows, 8 columns. I have validated all variables and some changes I've made after validation :
