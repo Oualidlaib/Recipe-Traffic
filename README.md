@@ -25,7 +25,7 @@ This data set has 947 rows, 8 columns. I have validated all variables and some c
 ![alt text](assets/images/image.png)
 ![alt text](assets/images/image-1.png)
 ### Cleaning & Validating `category` and `servings` colunms
-- I replaced 'Chicken Breast' with just 'Chicken'.
+- I replaced 'Chicken Breast' with just 'Chicken' of the `category` column.
 - The `savings` column wasn't numerical as it contains ambiguous values: '4 as a snack' and '6 as a snack'. After investigation, I decided to replace the value '4 as a snack' with 2, meaning the recipe serves 2 for lunch, and '6 as a snack' was replaced with 4.
 - The columns then converted to categorical type
 ## Exploratory Analysis
