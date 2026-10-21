@@ -30,10 +30,16 @@ This data set has 947 rows, 8 columns. I have validated all variables and some c
 - The columns then converted to categorical type
 ## Exploratory Analysis
 I investigated the target variable and the features of the recipes, as well as the relationships between the target variable and these features. After the analysis, I decided to apply the following changes to enable modeling:
-
 - Remove the `servings` feature.
+### Target variable - `high_traffic`
+The goal is to predict whether the recipe will bring high traffic to the site; thus, our target variable is `high_traffic`. As shown in the pie chart below, the dataset contains more recipes likely to bring high traffic, with 61% classified as high traffic and 39% as not high traffic.
+![alt text](assets/images/target.png)
 ### Numeric Variables - `calories`, `carbohydrate`, `sugar`, and `protein`
 The histograms and box plots of the numeric variables are shown below. As we can see from the histograms, all the variables are highly skewed to the right. Additionally, the box plots indicate that the variables contain values outside the IQR range. No action is needed.
+![alt text](assets/images/calories_distributions.png)
+![alt text](assets/images/carbohydrates_distributions.png)
+![alt text](assets/images/sugar_distributions.png)
+![alt text](assets/images/protein_distributions.png)
 #### Relationship between `calories`, `carbohydrate`, `sugar`, `protein` and `high_traffic`
 Below is a heatmap of the relationships between the numerical features and `high_traffic`. The strongest relationship displayed is between `calories` and `protein` showing a positive low correlation.
 ![alt text](assets/images/image-2.png)
